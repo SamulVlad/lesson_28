@@ -6,8 +6,8 @@ public class Main {
 		Shape circle = new Shape() {
 
 			@Override
-			<T> double area(T param) {
-				return Math.PI * Math.pow((Integer) param, 2);
+			double area(double param) {
+				return Math.PI * Math.pow(param, 2);
 			}
 
 		};
